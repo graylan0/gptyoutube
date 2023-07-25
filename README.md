@@ -1,4 +1,4 @@
-# Building a YouTube Video Summarization Web Application
+# OpenAI GPT 3.5 Turbo YouTube Video Summarization Application
 
 This repository contains a Flask web application for summarizing videos from a given YouTube channel. The application allows users to provide a YouTube channel link, fetch video data, transcribe audio, generate summaries, and store the summarized information in an SQLite database.
  # Demo
