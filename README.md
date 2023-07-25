@@ -1,9 +1,8 @@
-# gptyoutube
-GPT YouTube Script to collecting Youtube information into summerized AI training logs.
-
-**Summary: Building a YouTube Video Summarization Web Application**
+# Building a YouTube Video Summarization Web Application
 
 This repository contains a Flask web application for summarizing videos from a given YouTube channel. The application allows users to provide a YouTube channel link, fetch video data, transcribe audio, generate summaries, and store the summarized information in an SQLite database.
+ # Demo
+ ![image](https://github.com/graylan0/gptyoutube/assets/34530588/45e459ab-36f2-406e-8cdc-58fcec2f150f)
 
 **Features:**
 
@@ -23,7 +22,9 @@ This repository contains a Flask web application for summarizing videos from a g
 
 **How to Run:**
 
-1. Install the required dependencies (Flask, youtube_dl).
-2. Ensure you have a working database connection, as specified in `database.py`.
-3. Run the `main()` function to start the Flask server.
-4. Access the endpoints via appropriate HTTP requests.
+1. Install the required dependencies 
+``` pip install .```
+
+1. Ensure you have a working database connection, as specified in `database.py`.
+2. Run by typing `gptyoutube`.
+3. Access the backend server endpoints via appropriate HTTP requests.
